@@ -4,6 +4,10 @@
   --dark-color: black;
 }
 
+.hidden {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -22,6 +26,7 @@ body {
   background-color: darkred;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  padding-bottom: 3em;
 }
 
 a {
@@ -79,6 +84,7 @@ th {
 .App-content {
   padding: 10px;
   background-color: white;
+  height: 100%;
 }
 
 ul {
@@ -154,10 +160,6 @@ li.active a {
 }
 
 /* FOOTER */
-footer {
-  height: 20vh;
-  color: black;
-}
 
 .info {
   display: flex;
@@ -165,8 +167,18 @@ footer {
   justify-content: space-around;
 }
 
+.info a,
+.hours td:nth-child(2) {
+  color: rgb(126, 126, 126);
+  font-weight: 600;
+}
+
 .location a {
   display: block;
+}
+
+.location a:hover {
+  color: rgb(51, 51, 51);
 }
 
 .hours {

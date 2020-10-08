@@ -5,7 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 import modules from '../../modules';
 
-function MyNavbar() {
+function MyNavbar(props) {
   const [currentTab, setCurrentTab] = useState('Home');
   const [expanded, setExpanded] = useState(false);
   return (

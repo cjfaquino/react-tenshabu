@@ -19,11 +19,12 @@ function App() {
         </header>
         <MyNavbar />
         <div className="App-content">
+          <Route exact path="/" component={MyFooter} />
           {modules.map((module) => (
             <Route {...module.routeProps} key={module.name} />
           ))}
         </div>
-        <MyFooter />
+        {/* <MyFooter /> */}
       </div>
     </Router>
   );

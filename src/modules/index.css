@@ -126,9 +126,14 @@ td span.subText {
 .drinkItems div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
+@media (max-width: 700px) {
+  .drinkItems div {
+    justify-content: space-between;
+  }
+}
 .drinkItems table {
   margin: 20px;
   min-width: 280px;
