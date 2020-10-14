@@ -6,7 +6,7 @@
 
 To see the app in action, go to [http://www.tenshabu.com/](http://www.tenshabu.com/)
 
-Current changes at [https://www.tenshabu.cjfaquino.com/](https://www.tenshabu.cjfaquino.com/)
+Current changes at [https://tenshabu.cjfaquino.com/](https://tenshabu.cjfaquino.com/)
 
 ## Features
 
