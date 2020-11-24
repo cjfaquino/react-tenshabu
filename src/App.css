@@ -77,7 +77,7 @@ th {
 .container,
 .App-content {
   margin: 0 auto;
-  max-width: 1700px;
+  max-width: 1500px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -159,6 +159,25 @@ li.active a {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.orderOnline {
+  margin-right: 20px;
+  background-color: red;
+  color:white;
+  border-radius: 5px;
+}
+
+@media(max-width:500px){
+  .navbar-brand a,
+  .orderOnline{
+    font-size: .8em;
+  }
+}
+@media(max-width:330px){
+  .navbar-brand a,
+  .orderOnline{
+    font-size: .6em;
+  }
+}
 /* FOOTER */
 
 .info {
