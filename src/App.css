@@ -164,6 +164,7 @@ li.active a {
   background-color: red;
   color:white;
   border-radius: 5px;
+  float: left;
 }
 
 @media(max-width:500px){
@@ -173,9 +174,22 @@ li.active a {
   }
 }
 @media(max-width:330px){
+
+.navbar-brand {
+  position: relative;
+  top: -2px;
+}
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
   .navbar-brand a,
   .orderOnline{
     font-size: .6em;
+  }
+  .navbar-toggler{
+    font-size: .8em;
   }
 }
 /* FOOTER */
@@ -236,15 +250,17 @@ li.active a {
   height: 350px;
   order: 2;
   margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
+@media(max-width:1050px){
   .hours h2 {
     text-align: unset;
   }
 
   #map {
-    width: 100%;
-    order: 3;
+    width: 80vw;
+    order: 4;
   }
 }

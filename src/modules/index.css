@@ -54,19 +54,11 @@ td:nth-child(3) {
   padding: 1em;
 }
 
-.regDinner table {
-  width: 90vmin;
-}
-
 @media (min-width: 1449px) {
   .regSoup div,
   .regSides div,
   .menuSplit {
     justify-content: space-around;
-  }
-
-  .regDinner table {
-    width: 60vmin;
   }
 }
 
@@ -97,7 +89,7 @@ td:nth-child(3) {
 }
 
 .regDinner td:first-child {
-  padding-right: 2em;
+  padding-right: .5em;
 }
 
 .regSides div {
@@ -111,6 +103,24 @@ td:nth-child(3) {
 
 .regSides .extraSides {
   min-width: 270px;
+}
+
+@media(min-width: 700px){
+  .regDinner table {
+    width: 400px;
+  }
+}
+
+@media(max-width: 700px){
+  .regDinner table {
+    width: 100%;
+  }
+}
+
+@media(max-width: 400px){
+  .regSides {
+    width: 100%;
+  }
 }
 
 td span.subText {

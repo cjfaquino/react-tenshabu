@@ -15,7 +15,7 @@ function MyNavbar(props) {
           <Link to="/">天 Ten Shabu</Link>
         </Navbar.Brand>
         <a href='https://order.online/store/ten-shabu-906166'
-          className='nav-link orderOnline'
+          className='nav-link orderOnline ml-auto'
           >
           Order Online
           </a>
